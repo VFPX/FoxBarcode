@@ -45,7 +45,7 @@ Currently supports the QR Code with the supplement [FoxBarcodeQR](FoxBarcodeQR) 
 
 **Project Page: [FoxBarcode](FoxBarcode)**
 
-**Project Manager: [VFPEncoding](http://www.codeplex.com/site/users/view/VFPEncoding)**
+**Project Manager: [VFPEncoding](https://github.com/luismariag)**
 
 ![](FoxBarcode FAQs_38236)
 
