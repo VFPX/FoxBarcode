@@ -6,6 +6,8 @@
 
 ![](images/gcp.png) In Memoriam **Guillermo Carrero** (Feb 05, 1961 / Jan 14, 2013)
 
+## Download
+
 ![](images/vfpxreleasesmall.png) **[Download the latest release of FoxBarcode](FoxBarcode_v_1_17.zip)** - v.1.17 - Release 2016.12.21
 
 ## Features
