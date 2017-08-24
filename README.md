@@ -2,7 +2,7 @@
 
 **FoxBarcode** is a 100% **Visual FoxPro** class that provides a tool for generating images with different bar code symbologies to be used in VFP forms and reports, or exported to other applications.
 
-***Project Manager:** Guillermo Carrero (RIP) (Barcelona, Spain) and Luis Maria Guayan (Tucuman, Argentina)*
+**Project Manager:** ***Guillermo Carrero** (RIP) (Barcelona, Spain) and **Luis Maria Guayan** (Tucuman, Argentina)*
 
 ![](images/gcp.png) In Memoriam **Guillermo Carrero** (Feb 05, 1961 / Jan 14, 2013)
 
@@ -92,7 +92,7 @@ With the help of the Community VFP translated **FoxBarcode** messages the follow
 * **ITALIAN** by Roberto Saccomanno
 * **ROMANIAN** by Vilhelm-Ion Praisach
 
-You just have to define compiler directive **FBC_LANGUAGE** with the desired language in the file FoxBarcode.prg.
+You just have to define compiler directive **FBC_LANGUAGE** with the desired language in the file **FoxBarcode.prg**.
 
 <pre>#DEFINE FBC_LANGUAGE "ENGLISH"</pre>
 
@@ -178,7 +178,7 @@ REPORT FORM MyReport</pre>
 
 ## Distribution
 
-The only files needed to be distributed to FoxBarcode function properly are:
+The only files needed to be distributed to **FoxBarcode** function properly are:
 
 * ![](images/prg.gif) FoxBarcode.prg
 * ![](images/prg.gif) gpImage2.prg
@@ -191,11 +191,11 @@ Before instantiating the class **FoxBarcode**, you must run the following statem
 
 ## Demo Form
 
-With the download of FoxBarcode is a sample form, from which we can generate bar codes to our needs, and a builder of code, from which we can copy the generated code to the clipboard ready for pasting into your application.
+With the download of **FoxBarcode** is a sample form, from which we can generate bar codes to our needs, and a builder of code, from which we can copy the generated code to the clipboard ready for pasting into your application.
 
 At the top of the form there are three tabs from which all properties are configured class **FoxBarcode**.
 
-From the tab **"Barcode properties"** you enter the text to encode, the kind of symbolism and if FoxBarcode calculates the check digit. The dimensions of the image of the bar code to configure: the magnification factor, the around margin barcode, the height of the image, and the ratio of narrow and wide bar (in the symbols that allow for such variation) . The rotation of the bar code is also set from this tab, as well as some special properties of certain symbols.
+From the tab **"Barcode properties"** you enter the text to encode, the kind of symbolism and if **FoxBarcode** calculates the check digit. The dimensions of the image of the bar code to configure: the magnification factor, the around margin barcode, the height of the image, and the ratio of narrow and wide bar (in the symbols that allow for such variation) . The rotation of the bar code is also set from this tab, as well as some special properties of certain symbols.
 
 ![](images/prop1.png)
 
@@ -207,7 +207,7 @@ On the tab **"Human-readable properties"** to configure the human-readable text,
 
 ![](images/prop2.png)
 
-The tab **"Image and colors"** shows us the full name of the image file, this property can be passed as parameter or FoxBarcode class generates a random file name. Here we set the image type, resolution (DPI), the background color and the color of the bars.
+The tab **"Image and colors"** shows us the full name of the image file, this property can be passed as parameter or **FoxBarcode** class generates a random file name. Here we set the image type, resolution (DPI), the background color and the color of the bars.
 
 ![](images/prop3.png)
 
@@ -247,7 +247,7 @@ Use the image format PNG or BMP. Setting the property cImageType = "BMP" or "PNG
 
 ***FoxBarcode Supports QR Code?***
 
-Currently supports the QR Code with the supplement FoxBarcodeQR which uses the free library BarCodeLibrary.DLL of Dario Aranda Alvarez (Mexico)
+Currently supports the QR Code with the supplement **[FoxBarcodeQR](https://github.com/VFPX/FoxBarCodeQR)** which uses the free library BarCodeLibrary.DLL of Dario Aranda Alvarez (Mexico)
 
 ## Links
 
