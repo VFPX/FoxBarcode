@@ -4,7 +4,7 @@
 
 ***Project Manager:** Guillermo Carrero (RIP) (Barcelona, Spain) and Luis Maria Guayan (Tucuman, Argentina)*
 
-![](images/gcp.png) In Memoriam Guillermo Carrero (Feb 05, 1961 / Jan 14, 2013)
+![](images/gcp.png) In Memoriam **Guillermo Carrero** (Feb 05, 1961 / Jan 14, 2013)
 
 ![](images/vfpxreleasesmall.png) **[Download the latest release of FoxBarcode](FoxBarcode_v_1_17.zip)** - v.1.17 - Release 2016.12.21
 
@@ -117,7 +117,7 @@ ENDWITH
 *-- Generate image
 lcImagen = loFbc.BarcodeImage("123456789012")</pre>
 
-The new third parameter to the BarcodeImage() method, which allows you to configure the various properties, separated by commas. The same example as above, with this new way.
+The new third parameter to the **BarcodeImage()** method, which allows you to configure the various properties, separated by commas. The same example as above, with this new way.
 
 <pre>*-- Create object
 loFbc = CREATEOBJECT("FoxBarcode")
@@ -129,18 +129,23 @@ lcImagen = loFbc.BarcodeImage("","",[cText="123456789012", cImageType="PNG", ;
 This are some images generated with **FoxBarcode**:
 
 Code 128
+
 ![](images/128.png)
 
 EAN-13
+
 ![](images/EAN.png)
 
 EAN-13 5-Digit Suplements
+
 ![](images/ean13sup.png)
 
 ITF-14
+
 ![](images/ITF.png)
 
 EAN/UCC/GS1 128
+
 ![](images/ean128.png)
 
 The following is an example to test if a string is valid to encode the EAN-8:
@@ -156,7 +161,7 @@ ELSE
   MESSAGEBOX(loFbc.cMsgError, 16, "Example BarcodeTest()")
 ENDIF</pre>
 
-To include a barcode on a form, you must insert an Image object. As the bar code image does not exist at design time, the Picture property takes the name of the image when calling the BarcodeImage() method, for example from the Refresh method of form, as shown in the figure below:
+To include a barcode on a form, you must insert an Image object. As the bar code image does not exist at design time, the Picture property takes the name of the image when calling the **BarcodeImage()** method, for example from the Refresh method of form, as shown in the figure below:
 
 ![](images/form.png)
 
