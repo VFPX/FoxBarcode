@@ -6,7 +6,7 @@
 
 ***Guillermo Carrero** (RIP) (Barcelona, Spain) and **Luis Maria Guayan** (Tucuman, Argentina)*
 
-![](images/gcp.png) In Memoriam **Guillermo Carrero** (Feb 05, 1961 / Jan 14, 2013)
+![Guillermo Carrero](images/gcp.png)  *In Memoriam **Guillermo Carrero** (Feb 05, 1961 / Jan 14, 2013)*
 
 ### Latest release
 
@@ -84,26 +84,26 @@ Now with the **BarcodeTest()** method we can validate the text to be encoded wit
 
 With the help of the Community VFP translated **FoxBarcode** messages the following languages:
 
-<table>
-  <thead>
-    <tr><th>Language</th><th>Translated by</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>ENGLISH</td><td>VFPEncoding</td></tr>
-    <td>PANISH</td><td>VFPEncoding</td></tr>
-    <td>CZECH</td><td>Martin Krivka</td></tr>
-    <td>DUTCH</td><td>Koen Piller</td></tr>
-    <td>GERMAN</td><td>Stefan Wuebbe</td></tr>
-    <td>INDONESIAN</td><td>Samir H.</td></tr>
-    <td>PORTUGUESE</td><td>Cesar Ch.</td></tr>
-    <td>TURKISH</td><td>Ugur Yilmaz</td></tr>
-    <td>FILIPINO</td><td>Glenn Gevero</td></tr>
-    <td>FRENCH</td><td>Samir H.</td></tr>
-    <td>SERBIAN</td><td>Michael Kopljan</td></tr>
-    <td>ITALIAN</td><td>Roberto Saccomanno</td></tr>
-    <td>ROMANIAN</td><td>Vilhelm-Ion Praisach</td></tr>
-  </tbody>
-</table>
+  <table>
+    <thead>
+      <tr><th>Language</th><th>Translated by</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>ENGLISH</td><td>VFPEncoding</td></tr>
+      <td>PANISH</td><td>VFPEncoding</td></tr>
+      <td>CZECH</td><td>Martin Krivka</td></tr>
+      <td>DUTCH</td><td>Koen Piller</td></tr>
+      <td>GERMAN</td><td>Stefan Wuebbe</td></tr>
+      <td>INDONESIAN</td><td>Samir H.</td></tr>
+      <td>PORTUGUESE</td><td>Cesar Ch.</td></tr>
+      <td>TURKISH</td><td>Ugur Yilmaz</td></tr>
+      <td>FILIPINO</td><td>Glenn Gevero</td></tr>
+      <td>FRENCH</td><td>Samir H.</td></tr>
+      <td>SERBIAN</td><td>Michael Kopljan</td></tr>
+      <td>ITALIAN</td><td>Roberto Saccomanno</td></tr>
+      <td>ROMANIAN</td><td>Vilhelm-Ion Praisach</td></tr>
+    </tbody>
+  </table>
 
 You just have to define compiler directive **FBC_LANGUAGE** with the desired language in the file **FoxBarcode.prg**.
 
@@ -222,11 +222,9 @@ Once you've set the properties, you can click on the button **"Script Builder"**
 
 ### Links
 
-See more examples: **[In English](http://weblogs.foxite.com/luismaria/?p=6977)**
-
-Mire mas ejemplos: **[En español](http://sites.google.com/site/foxbarcode)**
-
-Voir d'autres exemples: **[En français](http://www.vfp.fr/foxbarcode.asp)**
+* See more examples: **[In English](http://weblogs.foxite.com/luismaria/?p=6977)**
+* Mire mas ejemplos: **[En español](http://sites.google.com/site/foxbarcode)**
+* Voir d'autres exemples: **[En français](http://www.vfp.fr/foxbarcode.asp)**
 
 ### Acknowledgements
 
