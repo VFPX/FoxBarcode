@@ -10,7 +10,7 @@
 
 ### Latest release
 
-**[FoxBarcode_v_1_17](/FoxBarcode_v_1_17/)** - v.1.17 - Release 2016.12.21
+**[FoxBarcode_v_1_19](/FoxBarcode_v_1_19/)** - v.1.19 - Release 2019.05.21
 
 <hr>
 
@@ -280,6 +280,9 @@ Once you've set the properties, you can click on the button **"Script Builder"**
 <hr>
 
 ### What's New?
+
+**v.1.19 - Release 2019.05.21**
+* Improvements in the GS1-128 code with the AIs (Application Identifiers) of fixed and variable length.
 
 **v.1.17 - Release 2016.12.21**
 * New language: ROMANIAN by Vilhelm-Ion Praisach
