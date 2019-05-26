@@ -1,0 +1,6 @@
+appName = FoxBarcode
+appID = FoxBarcode
+majorVersion = 1.19
+excludeFiles = *.bak,*.bat,*.fxp
+excludeFolders = *ThorUpdater*
+
