@@ -1,0 +1,74 @@
+What's New?
+
+v.1.19 - Release 2019.05.21
+Improvements in the GS1-128 code with the AIs (Application Identifiers) of fixed and variable length.
+
+v.1.17 - Release 2016.12.21
+New language: ROMANIAN by Vilhelm-Ion Praisach
+Version number matched to FoxBarcodeQR an New Year !
+Fixed some minor bugs
+
+v.1.12 - Release 2013.09.08
+New "Set Auto" for Code 128 that optimize strings containing many numbers
+
+v.1.11 - Release 2013.08.24
+New property lDeleteTempFiles: Lets choose if delete or not the temporary folder and image files
+Fixed some minor bugs
+
+v.1.10 - Release 2012.06.03
+New language: ITALIAN by Roberto Saccomanno
+Changes in nImageWith property: now can set the width of the image 
+New property nAlignBarcode: allows you to align the barcode on the left, center (default) or right of the image. 
+Fixed some minor bugs
+
+v.1.00 - Release 2011.12.26
+Released for production
+Check and correct all the variables to support mdot
+Fixed some minor bugs
+
+v.0.16 - Released 2011.08.28
+Messages in multiple languages:
+.ENGLISH
+.SPANISH by VFPEncoding
+.CZECH by Martin Krivka
+.DUTCH by Koen Piller
+.GERMAN by Stefan Wuebbe
+.INDONESIAN by Samir H.
+.PORTUGUESE by Cesar Chalom 
+.TURKISH by Ugur Yilmaz
+.FILIPINO by Glenn Gevero
+.FRENCH by Samir H.
+.SERBIAN by Michael Kopljan
+New symbologies:
+. RM4SCC (Royal Mail Barcode)
+. KIX-Code (Dutch Postal)
+New BarcodeTest() method to validate the string to encode without generating the image. 
+Fixed some minor bugs
+
+v.0.15 - Released 2011.06.05
+Two new symbologies:
+. One Track Pharmacode (used in the pharmaceutical industry) 
+. Two Track Pharmacode (used in the pharmaceutical industry)
+Enhancements to the code and examples
+
+v.0.14 - Released 2011.02.19
+Fixed display correctly the check digit in code Interleved 2 of 5. Thanks Vishal Anand (India)
+Fixed variable names in functions Float2Int() and Int2Float() by Anatoly Mogylevets (Canada)
+
+v.0.13 - Released 2011.01.04
+Enhancement in the algorithm to generate the symbology EAN/UCC/GS1-128 
+Fixed the choice of a font compatible with GDI+ to display warning messages 
+Fixed some minor bugs
+
+v.0.12 - Released 2010.11.29
+New symbologie EAN/UCC/GS1-128 
+Validation of fonts families and fonts styles permitted in Gdi+. Thanks to Koen Piller (Netherlands) and Cesar Chalom (Brazil)
+
+v.0.11 - Released 2010.11.22
+Added a third parameter to the BarcodeImage() method 
+Fixed some minor bugs
+
+v.0.10 - Released 2010.11.19
+Symbologies: Code 128, Code 39, Code 39 Extended, Code 93, Code 93 Extended, Standard 2 of 5, Interleaved 2 of 5, EAN-8, EAN-13, ITF-14, UPC-A, UPC-E, Codabar, Code 11, MSI / Plessey, PostNet and Telepen 
+Image types: JPG, BMP, GIF, PNG and TIFF
+
