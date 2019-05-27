@@ -222,7 +222,6 @@ Once you've set the properties, you can click on the button **"Script Builder"**
 
 ### Links
 
-* See more examples: **[In English](http://weblogs.foxite.com/luismaria/?p=6977)**
 * Mire mas ejemplos: **[En español](http://sites.google.com/site/foxbarcode)**
 * Voir d'autres exemples: **[En français](http://www.vfp.fr/foxbarcode.asp)**
 
