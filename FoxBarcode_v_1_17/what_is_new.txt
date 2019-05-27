@@ -1,5 +1,7 @@
 What's New?
 
+New version 1.19 available !!
+
 v.1.17 - Release 2016.12.21
 New language: ROMANIAN by Vilhelm-Ion Praisach
 Version number matched to FoxBarcodeQR an New Year !
