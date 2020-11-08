@@ -18,22 +18,22 @@
 
 **FoxBarcode** supports the following barcode symbologies: Code 128 (Auto, A, B and C), Code 39, Code 39 Extended (Full ASCII), Code 93, Code 93 Extended (Full ASCII), Standard 2 of 5, Interleaved 2 of 5, EAN-8, EAN-13, UPC-A, UPC-E (EAN and UPC with 2/5 digits supplements), ITF-14, GS1/UCC/EAN-128, Codabar, Code 11, MSI / Plessey, PostNet, MS4SCC, KIX-Code, Telepen, One Track Pharmacode and Two Track Pharmacode. Now supports QR Code with its supplement **[FoxBarcodeQR](https://github.com/VFPX/FoxBarCodeQR)**.
 
-**FoxBarcode** supports the following image types: JPG, BMP, GIF, PNG and TIFF
+**FoxBarcode** supports the following image types: JPG, BMP, GIF, PNG and TIFF.
 
 **FoxBarcode** generates the images with the class **[gpImage2](http://sites.google.com/site/gpimage2)** of **Alexander Golovlev** (Russia) and **Cesar Ch.** (Brazil), based on GDI + and requires gdiplus.dll.
 
-**FoxBarcode** is compatible with all versions of **Visual FoxPro** from version 6.0
+**FoxBarcode** is compatible with all versions of **Visual FoxPro** from version 6.0.
 
 ### Properties
 
 **FoxBarcode** allows greater control over the generation of bar code image to be able to customize the following properties:
 
 * ![](images/prop.gif) **nImageHeight:** Height in pixels of the image.
-* ![](images/prop.gif) **nImageWidth:** Width in pixels of the image. Now can set the property
+* ![](images/prop.gif) **nImageWidth:** Width in pixels of the image. Now can set the property.
 * ![](images/prop.gif) **nAlignBarcode**: Allows to align the barcode on the left, center or right of the image.
 * ![](images/prop.gif) **nResolution:** Image resolution in DPI.
 * ![](images/prop.gif) **nRotation:** Rotate the image. (0 = 0°, 1 = 90°, 2 = 180°, 3 = 270°)
-* ![](images/prop.gif) **cImageType:** Type of the generated image ("JPG", "GIF" "PNG", "BMP", "TIF")
+* ![](images/prop.gif) **cImageType:** Type of the generated image. ("JPG", "GIF" "PNG", "BMP", "TIF")
 * ![](images/prop.gif) **cImageFile:** Name the image file generated. If not specified, it generates a random file name in the folder Windows temporary files.
 * ![](images/prop.gif) **cText:** Text encoding.
 * ![](images/prop.gif) **nAlignText:** Alignment of human-readable text. (0 = Left, 1 = center, 2 = Right)
@@ -45,16 +45,16 @@
 * ![](images/prop.gif) **lFontItalic:** .T. if the source of human-readable is Italic.
 * ![](images/prop.gif) **nFontSize:** Font size of the human-readable. (Recommended = 8 or 9)
 * ![](images/prop.gif) **nFontColor:** Color of the human-readable source. (Recommended = Black = RGB (0,0,0)).
-* ![](images/prop.gif) **nBackColor:** The background color of the image (Recommended = White = RGB (255,255,255)).
-* ![](images/prop.gif) **nBarsColor:** Color of the bars (Recommended = Black = RGB (0,0,0)).
-* ![](images/prop.gif) **nBarcodeType:** Type bar code symbology. See the list of supported barcodes and ID
+* ![](images/prop.gif) **nBackColor:** The background color of the image. (Recommended = White = RGB (255,255,255)).
+* ![](images/prop.gif) **nBarsColor:** Color of the bars. (Recommended = Black = RGB (0,0,0)).
+* ![](images/prop.gif) **nBarcodeType:** Type bar code symbology. See the list of supported barcodes and ID.
 * ![](images/prop.gif) **cSet128:** Set of Code 128. ("A", "B", "C" and AUTO with " * " chararacter)
 * ![](images/prop.gif) **cSupplementalText:** Supplementary Text EAN and UPC codes.
 * ![](images/prop.gif) **lAddCheckDigit:** .T. if you calculate the check digit. In symbols, where the check digit is mandatory, not taking into account this property.
 * ![](images/prop.gif) **nBearerBar:** supporting frame type, only in the ITF-14 symbology. (0 = None, 1 = Rectangle, 2 = Top & Bottom)
-* ![](images/prop.gif) **lUseAppId:** .T. FoxBarcode interpreter to code to GS1/UCC/EAN-128 Application Identifiers (enclosed in parentheses)
+* ![](images/prop.gif) **lUseAppId:** .T. FoxBarcode interpreter to code to GS1/UCC/EAN-128 Application Identifiers. (enclosed in parentheses)
 * ![](images/prop.gif) **nFactor:** Magnification factor of the bar code. (1 .. 9)
-* ![](images/prop.gif) **nMargin:** Margin around the barcode
+* ![](images/prop.gif) **nMargin:** Margin around the barcode.
 * ![](images/prop.gif) **nRatio:** Relationship between the narrow bars and wide bars in the symbols that allow it.
 * ![](images/prop.gif) **lDeleteTempFiles:** Lets choose if delete or not the temporary folder and image files.
 
@@ -90,7 +90,7 @@ With the help of the Community VFP translated **FoxBarcode** messages the follow
     </thead>
     <tbody>
       <tr><td>ENGLISH</td><td>VFPEncoding</td></tr>
-      <td>PANISH</td><td>VFPEncoding</td></tr>
+      <td>SPANISH</td><td>VFPEncoding</td></tr>
       <td>CZECH</td><td>Martin Krivka</td></tr>
       <td>DUTCH</td><td>Koen Piller</td></tr>
       <td>GERMAN</td><td>Stefan Wuebbe</td></tr>
