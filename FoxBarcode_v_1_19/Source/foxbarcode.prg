@@ -4680,6 +4680,7 @@ DEFINE CLASS FoxBarcode AS CUSTOM
   * Valid all chars are numerics
   *---------------------------------------------------------
   PROCEDURE IsNumeric(tcString)
+    tcString = CHRTRAN(tcString, CHR(32), CHR(64))
     RETURN EMPTY(CHRTRAN(m.tcString, "1234567890", ""))
   ENDPROC
 
